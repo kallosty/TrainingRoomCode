@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InputAction Script</title>
+    
+    <!-- Prism.js 스타일 및 라이브러리 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            padding: 20px;
+        }
+        pre {
+            border-radius: 8px;
+            padding: 15px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>InputAction.cs</h2>
+
+    <pre><code class="language-csharp">
+using UnityEngine;
+using UnityEngine.Events;
+
+[System.Serializable]
+public class InputAction
+{
+    public string ActionName;
+    public KeyCode Key;
+    public UnityAction ActionEvent;
+}
+
+          </code></pre>
+
+</body>
+</html>
